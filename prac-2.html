@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: linear-gradient(rgb(165, 128, 128));
+        }
+
+         section{
+            background: url("https://images.pexels.com/photos/2433291/pexels-photo-2433291.jpeg?cs=srgb&dl=pexels-darren-tiumalu-2433291.jpg&fm=jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+      
+        nav {
+            background-color: rgba(128, 128, 128, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-between;
+            padding: 30px 60px;
+        }
+
+        p {
+            float: left;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            color: rgb(15, 247, 193);
+            
+        }
+
+        nav ul li {
+            margin: auto;
+            display: inline;
+            margin-left: 1px;
+            margin-right: 70px;
+            font-size: large;
+        }
+
+        nav li a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a:hover {
+            color: brown;
+        }
+
+        @media only screen and (max-width: 850px) {
+            nav {
+                background-color: rgba(128, 128, 128, 0.5);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-between;
+                padding: 30px 60px;
+            }
+            nav ul li {
+            margin: auto;
+            display:block;
+            margin-left: 70px;
+            margin-right: 70px;
+            font-size: large;
+        }
+        p {
+            float: left;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            color: rgb(15, 247, 193);
+            margin-right: 500px;
+        }
+        @media only screen and (max-width: 700px){
+            p {
+            float: left;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            color: rgb(15, 247, 193);
+            margin-right: 400px;
+        }
+        }
+        @media only screen and (max-width: 580px){
+            p {
+            float: left;
+            font-size: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            color: rgb(15, 247, 193);
+            margin-right: 300px;
+        }
+        }
+        @media only screen and (max-width: 460px){
+            p {
+            float: left;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            color: rgb(15, 247, 193);
+            margin-right: 200px;
+        }
+        nav ul li {
+            margin: auto;
+            display: block;
+            margin-left: 70px;
+            margin-right: 70px;
+            font-size: medium;
+        }
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <section cla="sec1">
+           
+        </section>
+        <nav>
+            <p>WELCOME</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+      
+    </div>
+</body>
+
+</html>
